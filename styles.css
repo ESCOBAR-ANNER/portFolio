@@ -53,16 +53,26 @@ h2 {
     text-align: center;
 }
 
+/* styles.css */
 .menu-button {
-    margin: 5px; /* Espacio alrededor de los botones */
-    padding: 10px 0; /* Ajustar el padding vertical */
-    flex-grow: 1; /* Ocupar el espacio disponible de manera equitativa */
+    margin: 10px;
+    padding: 10px 0;
+    flex-grow: 1;
     background-color: #2B54D0;
     color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /* Agrega esta línea para quitar la línea subrayada */
+}
+
+.menu-button i {
+    font-size: 1.2em;
+    margin-right: 5px;
 }
 
 .menu-button:hover {
