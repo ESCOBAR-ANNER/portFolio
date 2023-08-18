@@ -16,8 +16,6 @@ body {
     color: black;
 }
 
-
-
 .header img {
     max-width: 100px;
     border-radius: 50%;
@@ -41,6 +39,7 @@ h2 {
 
 .menu {
     display: flex;
+    flex-wrap: wrap; /* Agregado para ajustar en varias líneas en pantallas pequeñas */
     justify-content: center;
     align-items: center;
     margin-top: 20px;
@@ -55,8 +54,9 @@ h2 {
 }
 
 .menu-button {
-    margin-right: 5px;
-    padding: 10px 20px;
+    margin: 5px; /* Espacio alrededor de los botones */
+    padding: 10px 0; /* Ajustar el padding vertical */
+    flex-grow: 1; /* Ocupar el espacio disponible de manera equitativa */
     background-color: #2B54D0;
     color: #ffffff;
     border: none;
